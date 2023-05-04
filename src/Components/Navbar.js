@@ -24,6 +24,7 @@ function Navbar() {
               <NavLink>Packages</NavLink>
             </ul>
           </div>
+
           <div className="login">
             <div className="h-9 w-20 border border-FFFFFF rounded-full p-2 text-xs bg-white font-semibold">
               <NavLink>Login</NavLink>
