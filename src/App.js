@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import Text from "./Components/Text";
+import Steps from "./Components/Steps";
+import Pos from "./Components/Pos";
+import Orderonline from "./Components/Orderonline";
+import Kuick from "./Components/Kuick";
+import Graph from "./Components/Graph";
+import Content from "./Components/Content";
+import Testimonial from "./Components/Testimonial";
+import Footer from "./Components/Footer";
+import Copyright from "./Components/Copyright";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navbar /> <Text /> <Steps />
+        <Pos /> <Orderonline />
+        <Kuick /> <Graph /> <Content /> <Testimonial /> <Footer /> <Copyright />
+      </BrowserRouter>
     </div>
   );
 }

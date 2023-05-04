@@ -1,0 +1,396 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  position: relative;
+  right: 12rem;
+  top: 4em;
+}
+.nav {
+  position: relative;
+  left: 7rem;
+  top: 4rem;
+}
+
+.login {
+  position: relative;
+  left: 9rem;
+  top: 4rem;
+}
+.object {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.object {
+  position: relative;
+  z-index: -9;
+  left: 20rem;
+  bottom: 4rem;
+}
+.Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  position: relative;
+  right: 23rem;
+  bottom: 50rem;
+  text-align: left;
+}
+
+.image {
+  position: relative;
+  left: 20rem;
+  bottom: 25rem;
+}
+
+.Button {
+  position: relative;
+  bottom: 49rem;
+  right: 24em;
+  text-align: left;
+}
+
+.btn1 {
+  background-color: rgb(235, 80, 8);
+  color: #ffff;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn1:hover {
+  background-color: #ff8533;
+}
+.btn2 {
+  background-color: rgb(244, 244, 244);
+  color: rgb(36, 35, 49);
+  padding: 25px;
+  display: flex;
+}
+.vidbutton {
+  position: relative;
+  left: 1em;
+  bottom: 1.8em;
+}
+.readmore {
+  position: relative;
+  bottom: 0.8em;
+  font-size: 15px;
+}
+.btn2:hover {
+  background-color: #ffff;
+}
+.icon {
+  position: relative;
+  bottom: 40rem;
+  left: 0rem;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feature {
+  position: relative;
+  bottom: 40em;
+  left: 0rem;
+  border: solid #fef2ed;
+  background-color: #fef2ed;
+  color: rgb(250, 100, 32);
+  border-radius: 20px;
+  width: 6rem;
+  height: 2em;
+  padding: 6px;
+}
+.Steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sucess {
+  position: relative;
+  bottom: 30rem;
+}
+.card {
+  position: relative;
+  bottom: 20rem;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cn1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cn1p {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  color: rgb(121, 121, 121);
+}
+
+.cn1:hover {
+  background-color: rgb(249, 249, 249);
+  border-radius: 20px;
+}
+a:hover {
+  color: #fa6420;
+}
+
+.pos {
+  position: relative;
+  top: 0em;
+  left: 0em;
+}
+.pos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.p2 {
+  color: rgb(121, 121, 121);
+}
+.posimage {
+  position: relative;
+  left: 15em;
+  bottom: 64.4em;
+  background-size: contain;
+}
+.posback {
+  background-color: #f1f1f1;
+  border: #f1f1f1;
+  height: 30em;
+  width: 40rem;
+  border-radius: 30px;
+  padding: 70px;
+}
+.posback {
+  position: relative;
+  right: 15rem;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.order {
+  position: relative;
+  bottom: 40em;
+  right: 9rem;
+}
+.order1 {
+  position: relative;
+  bottom: 40rem;
+}
+.orderpara {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.orderpara {
+  position: relative;
+  bottom: 20rem;
+  left: 10em;
+}
+.top {
+  position: relative;
+  bottom: 22rem;
+  left: 10em;
+}
+.orderpara2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  z-index: -9;
+  width: 40rem;
+}
+.orderpara2 {
+  position: relative;
+  right: 20rem;
+}
+.svgpic {
+  display: flex;
+  flex-direction: row;
+}
+.para3 {
+  color: #797979;
+}
+.order2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.order2 {
+  position: relative;
+  bottom: 35em;
+}
+.bg3 {
+  position: relative;
+  left: 50em;
+  bottom: 35em;
+  z-index: -9;
+}
+.five {
+  position: relative;
+  left: 35em;
+  bottom: 15em;
+}
+.bg2 {
+  position: relative;
+  z-index: -9;
+  right: 20rem;
+  bottom: 2rem;
+}
+.bg4 {
+  position: relative;
+  left: 30rem;
+  bottom: 32.5em;
+}
+.grph1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grph1 {
+  position: relative;
+  bottom: 60rem;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cont {
+  position: relative;
+  bottom: 45rem;
+}
+.contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contents {
+  position: relative;
+  bottom: 25rem;
+}
+.p5 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 30px;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.test {
+  position: relative;
+  bottom: 50rem;
+}
+
+.para7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 600px) {
+  .para7 {
+    position: absolute;
+    bottom: 0rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .test2 {
+    position: absolute;
+    bottom: 0em;
+  }
+}
+
+.testimonial {
+  background-color: #fff3f0;
+  color: #fa6420;
+  padding: 10px;
+  border-radius: 20px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  position: relative;
+  bottom: 30em;
+  gap: 3rem;
+}
+.page {
+  padding-top: 10px;
+  text-align: left;
+  color: #797979;
+}
+.mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 2em;
+}
+.app {
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 30px;
+  padding: 30px;
+}
+.copywrite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.copywrite {
+  position: relative;
+  bottom: 20em;
+}
+.dinecopy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22rem;
+}
